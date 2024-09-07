@@ -1,0 +1,49 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url(Images/Space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chickencontainer
+{
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.chicken
+{
+    height: 100px;
+}
+.rocket
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.rocket-img
+{
+    height: 200px;
+
+}
+
+.bullet{
+    position: absolute;
+    height: 60px;
+}
